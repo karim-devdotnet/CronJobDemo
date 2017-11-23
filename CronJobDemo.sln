@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronJobDemo", "CronJobDemo\CronJobDemo.csproj", "{F82FB235-5562-42C2-85C3-40D2F0E815A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronJobDemo.Console", "CronJobDemo.Console\CronJobDemo.Console.csproj", "{63C37E59-A7F2-434C-8569-9695942E5356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D47FC545-40CB-4FFB-853E-960CA0654A32}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F82FB235-5562-42C2-85C3-40D2F0E815A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F82FB235-5562-42C2-85C3-40D2F0E815A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F82FB235-5562-42C2-85C3-40D2F0E815A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F82FB235-5562-42C2-85C3-40D2F0E815A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C37E59-A7F2-434C-8569-9695942E5356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C37E59-A7F2-434C-8569-9695942E5356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C37E59-A7F2-434C-8569-9695942E5356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C37E59-A7F2-434C-8569-9695942E5356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
